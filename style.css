@@ -1,0 +1,50 @@
+/* Style the container */
+.profile {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the Slack username */
+[data-testid="slackUserName"] {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the Slack display image */
+[data-testid="slackDisplayImage"] {
+    width: 120px;
+    height: 110px;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Style the current day of the week */
+[data-testid="currentDayOfTheWeek"] {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Style the current UTC time */
+[data-testid="currentUTCTime"] {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Style the track */
+[data-testid="myTrack"] {
+    font-size: 20px;
+    color: #007bff; /* Blue color */
+}
+
+/* Style the GitHub URL link */
+[data-testid="githubURL"] {
+    font-size: 16px;
+    color: #007bff; /* Blue color */
+    text-decoration: none; /* Remove underline */
+}
+
+[data-testid="githubURL"]:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
